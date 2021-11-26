@@ -26,7 +26,7 @@ public class Pais {
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
-	public Pais paisMasVendedor() {
+	public static Pais paisMasVendedor() {
 		int max = 0;
 		int jmax = 0;
 		for(int i = 0; i<Pais.paises.size();i++) {

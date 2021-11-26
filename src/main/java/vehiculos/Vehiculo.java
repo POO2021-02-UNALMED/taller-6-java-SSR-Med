@@ -23,13 +23,16 @@ public class Vehiculo {
 		fabricante.cantidadVehiculos++;
 		Vehiculo.cantidadVehiculos = Vehiculo.cantidadVehiculos + 1;
 	}
-	static String vehiculosPorTipo() {
+	public static String vehiculosPorTipo() {
 		return "Automoviles: " + Automovil.cantidadAutomoviles +"\n"+
 				"Camionetas: " + Camioneta.cantidadCamionetas + "\n"+
 				"Camiones: " + Camion.cantidadCamiones;
 	}
-	static int getCantidadVehiculos() {
+	public static int getCantidadVehiculos() {
 		return Vehiculo.cantidadVehiculos;
+	}
+	public static void setCantidadVehiculos(int cantidad) {
+		Vehiculo.cantidadVehiculos = cantidad;
 	}
 	public String getPlaca() {
 		return placa;
