@@ -1,9 +1,9 @@
 package vehiculos;
 import java.util.*;
 public class Pais {
-	String nombre;
-	int cantidadAutos;
-	static ArrayList<Pais> paises = new ArrayList<Pais>();
+	public String nombre;
+	public int cantidadAutos;
+	public static ArrayList<Pais> paises = new ArrayList<Pais>();
 	
 	
 	public void cantidad() {
